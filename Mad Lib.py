@@ -1,0 +1,7 @@
+adjective = input("please enter an adjective: ")
+noun = input("please enter an noun: ")
+verb = input("please enter a verb ending in -ing: ")
+adverb = input("please enter an adverb: ")
+color = input("please enter a color of the rainbow: ")
+print("Your MadLib: ")
+print("The", adjective, noun, verb, adverb, "under the beautiful", color, "crystal bridge: ")
