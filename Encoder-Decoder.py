@@ -6,7 +6,7 @@ for letter in message:              # Loop through each letter of the message
         value = ord(letter) + 13    # shift the letter value up by 13,
         letter = chr(value)         # turn the value back into a letter,
         if not letter.isupper():    # and check to see if we shifted too far
-            value -= 26             # If we did, wrap it back around Z->A
+            value -= 26             # If we did, wrap it back a round Z->A
             letter = chr(value)     # by subtracting 26 from the letter value
     output += letter                # Add the letter to our output string
 print("Output message: ", output)   # Output our coded/decoded message
